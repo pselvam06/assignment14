@@ -1,6 +1,6 @@
 import React from "react";
 
-const Home = () => {
+function Home() {
   return (
     <div className="text-center home-container">
       <div className="col-md-12 mt-5">
@@ -10,5 +10,5 @@ const Home = () => {
       
     </div>
   );
-};
+}
 export default Home;
